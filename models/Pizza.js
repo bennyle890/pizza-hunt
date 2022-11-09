@@ -8,7 +8,7 @@ const PizzaSchema = new Schema({
         type: String
     },
     createdAt: {
-        type: DataTransfer,
+        type: Date,
         default: Date.now
     },
     size: {
